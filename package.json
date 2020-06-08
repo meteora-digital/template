@@ -1,0 +1,19 @@
+{
+  "name": "@meteora-digital/template",
+  "version": "1.0.0",
+  "description": "es6 class to create html from an array of objects",
+  "main": "js/template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Array",
+    "JavaScript",
+    "Object",
+    "es6",
+    "HTML",
+    "template"
+  ],
+  "author": "Emmanuel Davies",
+  "license": "MIT"
+}

@@ -4,7 +4,7 @@
   "description": "es6 class to create html from an array of objects",
   "main": "js/template.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [
     "Array",

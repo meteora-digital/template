@@ -1,6 +1,6 @@
 {
   "name": "@meteora-digital/template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "es6 class to create html from an array of objects",
   "main": "js/template.js",
   "scripts": {

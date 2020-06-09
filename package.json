@@ -2,7 +2,7 @@
   "name": "@meteora-digital/template",
   "version": "1.0.2",
   "description": "es6 class to create html from an array of objects",
-  "main": "js/template.js",
+  "main": "dist/js/template.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
@@ -18,5 +18,12 @@
   "license": "MIT",
   "dependencies": {
     "@meteora-digital/helpers": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1"
   }
 }

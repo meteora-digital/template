@@ -15,5 +15,8 @@
     "template"
   ],
   "author": "Emmanuel Davies",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@meteora-digital/helpers": "^1.0.6"
+  }
 }

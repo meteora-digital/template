@@ -1,4 +1,4 @@
-const loopObject = require('./components/loopObject');
+const loopObject = require('@meteora-digital/helpers/js/loopObject');
 
 export default class Template {
 	constructor (object) {

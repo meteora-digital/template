@@ -6,7 +6,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-var loopObject = require('@meteora-digital/helpers/dist/js/loopObject');
+import { loopObject } from '@meteora-digital/helpers'; // const loopObject = require('@meteora-digital/helpers/dist/js/loopObject');
 
 var Template = /*#__PURE__*/function () {
   function Template(object) {

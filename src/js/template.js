@@ -1,5 +1,10 @@
-import {loopObject} from '@meteora-digital/helpers';
-// const loopObject = require('@meteora-digital/helpers/dist/js/loopObject');
+function loopObject(object, func) {
+	if (object && typeof object === 'object') {
+		for (let key in object) {
+			func(key, object[key]);
+		}
+	}
+}
 
 export default class Template {
 	constructor (object) {

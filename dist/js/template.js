@@ -80,8 +80,12 @@ var Template = /*#__PURE__*/function () {
     key: "renderInside",
     value: function renderInside(el) {
       if (el) {
-        for (var i = 0; i < this.html.length; i++) {
-          el.appendChild(this.html[i]);
+        if (Array.isArray(this.html)) {
+          for (var i = 0; i < this.html.length; i++) {
+            el.appendChild(this.html[i]);
+          }
+        } else {
+          el.appendChild(this.html);
         }
       }
     }
@@ -90,24 +94,24 @@ var Template = /*#__PURE__*/function () {
   return Template;
 }();
 /* new Template(
-	[
-		{
-			tagName: 'article',
-			classList: 'classes here'
-			innerHTML: [
-				{
-					tagName: 'p',
-					classList: 'classes here',
-					innnerHTML: 'Text here'
-				},
-				{
-					tagName: 'input',
-					type: 'checkbox',
-					value: 1,
-				}
-			]
-		}
-	]
+  [
+    {
+      tagName: 'article',
+      classList: 'classes here'
+      innerHTML: [
+        {
+          tagName: 'p',
+          classList: 'classes here',
+          innnerHTML: 'Text here'
+        },
+        {
+          tagName: 'input',
+          type: 'checkbox',
+          value: 1,
+        }
+      ]
+    }
+  ]
 )*/
 
 

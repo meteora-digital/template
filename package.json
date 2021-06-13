@@ -1,10 +1,10 @@
 {
   "name": "@meteora-digital/template",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "es6 class to create html from an array of objects",
   "main": "dist/js/template.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "npm i && gulp"
   },
   "keywords": [
     "Array",
